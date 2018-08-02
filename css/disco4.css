@@ -1,0 +1,26 @@
+.primero p {
+    font-size: 150%;
+    font-weight: 300;
+    font-style: 'Hind', sans-serif;
+    max-height: 300px;
+    line-height: 50px;
+    max-width: 417px;
+}
+
+.banda {
+    width: 492px;
+    height: 353px;
+    padding: 20px;
+    list-style: none;
+    border: 1px solid black;
+    background: rgba(136, 130, 130, 0.94);
+}
+
+.integrantes {
+    font-size: 20px;
+    font-weight: 300;
+    font-style: 'Hind', sans-serif;
+    max-height: 300px;
+    line-height: 35px;
+    list-style: none;
+}

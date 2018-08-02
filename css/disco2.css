@@ -1,0 +1,19 @@
+.banda {
+    width: 492px;
+    height: 378px;
+    padding: 20px;
+    list-style: none;
+    border: 1px solid black;
+    background: rgba(136, 130, 130, 0.94);
+}
+
+.integrantes {
+    font-size: 20px;
+    font-weight: 300;
+    font-style: 'Hind', sans-serif;
+    max-height: 230px;
+    line-height: 26px;
+    list-style: none;
+}
+
+
