@@ -6,8 +6,8 @@
     font-size: 200%;
     color:#9f0046;
 }
-@media screen and (min-width: 769px){
-    
+
+
 body{
 
    padding: 0%;
@@ -15,7 +15,6 @@ body{
    background: black;
 }
 
-}
 .menu {
     position: fixed;
     width: 100%;
@@ -199,16 +198,22 @@ ul.galeria {
     flex-direction: row;
     flex-wrap:wrap;
     width: 100%;
-    padding:20px;
-   
+    padding:20px;  
 }
 
-ul li img {
+ul li img{
     width: 100%;
     height: auto;
     max-width: 100%;
     vertical-align: middle;
-    border: 0; 
+    border: 0;
+    opacity:0.5;
+    filter:alpha(opacity=50);
+}
+
+ul li img:hover {
+    opacity:1.0;
+    filter:alpha(opacity=100);
 }
 
 div.gris{
@@ -282,4 +287,8 @@ footer .contenedor ul li {
 footer .contenedor ul li a {
     color: #fff;
 }
+
+
+
+    
 
